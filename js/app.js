@@ -50,7 +50,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     var dice = Math.floor(Math.random() * 6) + 1;
 
     diceDOM.style.display = 'block';
-    diceDOM.src = '/img/dice-' + dice + '.png';
+    diceDOM.src = './img/dice-' + dice + '.png';
 
     if (dice !== 1) {
       roundScore += dice;
